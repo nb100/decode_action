@@ -1,272 +1,62 @@
-//Thu Apr 03 2025 22:58:14 GMT+0000 (Coordinated Universal Time)
+//Thu Apr 03 2025 22:58:58 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-var FU0N3h = Object['\x64\x65\x66\x69\x6e\x65\x50\x72\x6f\x70\x65\x72\x74\x79'],
-  Kzy_1EB,
-  oM_yYRK,
-  P6eU1ux,
-  xjfsme,
-  mXxaKz,
-  X7QqevF,
-  VzZkWx,
-  kHphQt;
-function pVsYn2() {
-  return globalThis;
-}
-function GLk2Q5() {
-  return global;
-}
-function Oaxsl6F() {
-  return window;
-}
-function Ew9ztD() {
-  return new Function('\u0072\u0065\u0074\u0075\u0072\u006e\u0020\u0074\u0068\u0069\u0073')();
-}
-function _aOOVN5(FU0N3h = [pVsYn2, GLk2Q5, Oaxsl6F, Ew9ztD], cyjR0_s, DnQmVF = [], ZYnIqS = 0x0, Kzy_1EB) {
-  cyjR0_s = cyjR0_s;
-  try {
-    cyjR0_s = Object
-    DnQmVF.push(''.__proto__.constructor.name)
-  } catch (e) {}
-  loh7GW8: for (ZYnIqS = ZYnIqS; ZYnIqS < FU0N3h.length; ZYnIqS++) try {
-    cyjR0_s = FU0N3h[ZYnIqS]();
-    for (Kzy_1EB = 0x0; Kzy_1EB < DnQmVF.length; Kzy_1EB++) if (typeof cyjR0_s[DnQmVF[Kzy_1EB]] === '\u0075\u006e\u0064\u0065\u0066\u0069\u006e\u0065\u0064') {
-      continue loh7GW8;
-    }
-    return cyjR0_s;
-  } catch (e) {}
-  return cyjR0_s || this;
-}
-Kzy_1EB = _aOOVN5() || {}
-oM_yYRK = Kzy_1EB.TextDecoder
-P6eU1ux = Kzy_1EB.Uint8Array
-xjfsme = Kzy_1EB.Buffer
-mXxaKz = Kzy_1EB.String || String
-X7QqevF = Kzy_1EB.Array || Array
-var i9vUYq5, IbVYHg;
-function rxVa3nD(...Ihgi1H) {
-  var FU0N3h = "length";
-  return Ihgi1H[Ihgi1H[FU0N3h] - 0x1];
-}
-function g31XnE4(Ihgi1H, FU0N3h) {
-  switch (kHphQt) {
-    case 0x20:
-      return !Ihgi1H;
+function main(_0x43d166) {
+  const _0xe07ae7 = _0x43d166.url,
+    _0x16d91c = ku9.getQuery(_0xe07ae7, "key"),
+    _0x227698 = ku9.getQuery(_0xe07ae7, "cid"),
+    _0x3278f1 = ku9.getQuery(_0xe07ae7, "playseek");
+  if (_0xe07ae7.includes("/k-Web/")) {
+    return;
   }
-}
-function uAFo4Rv(Ihgi1H) {
-  return rxVa3nD(Ihgi1H = kHphQt + (kHphQt = Ihgi1H, 0x0), Ihgi1H);
-}
-kHphQt = kHphQt;
-try {
-  if ((() => {
-    var Ihgi1H = () => {
-      const FU0N3h = () => {
-        var FU0N3h = "test";
-        const cyjR0_s = new RegExp('\x0a');
-        return cyjR0_s[FU0N3h](Ihgi1H);
-      };
-      return FU0N3h();
-    };
-    return Ihgi1H();
-  })()) {
-    var oPWoeP = "*+,./:;<=>?@[]^_`{|}~\"",
-      G4XMEIQ;
-    G4XMEIQ = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()" + oPWoeP
-    while (true) if (rxVa3nD(G4XMEIQ = G4XMEIQ, g31XnE4(G4XMEIQ, uAFo4Rv(0x20)))) {
-      break;
+  let _0xc45281 = "http://live.88688.top/hostip.php",
+    _0x1de9a5 = ku9.getCache("itvToken"),
+    _0x1f9b1d = _0xa51c8f(_0x1de9a5);
+  if (_0x1f9b1d === 0 || _0x1f9b1d === 1) {
+    {
+      _0x1de9a5 = ku9.get(_0xc45281, null);
+      var _0x159e37 = ku9.setCache("itvToken", _0x1de9a5, 2592000000);
     }
   }
-  if (setInterval) {
-    if ((() => {
-      var Ihgi1H = () => {
-        const FU0N3h = () => {
-          const FU0N3h = new RegExp('\u000a');
-          return FU0N3h["test"](Ihgi1H);
-        };
-        return FU0N3h();
-      };
-      return Ihgi1H();
-    })()) {
-      while (true) {
-        var qFlD14C = 0x63;
-        for (qFlD14C = 0x63; qFlD14C == qFlD14C; qFlD14C *= qFlD14C) if (rxVa3nD(g31XnE4(qFlD14C, kHphQt = 0x20) && console.log(qFlD14C), qFlD14C) <= 0xa) {
-          break;
-        }
-        ;
-        if (qFlD14C === 0x64) {
-          qFlD14C--;
-        }
-      }
-      ;
+  if (_0x3278f1 !== null) {
+    {
+      const _0x426953 = _0x3278f1.split("-"),
+        _0x3ca690 = _0x4acb47(_0x426953[0]),
+        _0x4f7516 = _0x4acb47(_0x426953[1]);
+      let _0x5e6b84 = "http://gslbserv.itv.cmvideo.cn:80/" + _0x16d91c + "/1.m3u8?channel-id=" + _0x227698 + "&Contentid=" + _0x16d91c + "&livemode=4&stbId=IPTV&starttime=" + _0x3ca690 + "&endtime=" + _0x4f7516,
+        _0x97711e = {
+          "Content-Type": "application/x-www-form-urlencoded",
+          "User-Agent": "okhttp/3.12.11"
+        },
+        _0x128ffb = ku9.request(_0x5e6b84, "GET", JSON.stringify(_0x97711e), null, false),
+        _0x357386 = _0x128ffb.headers.Location;
+      return JSON.stringify({
+        "url": _0x357386,
+        "host": "39.135.132.221"
+      });
     }
-    setInterval(() => {
-      if ((() => {
-        var Ihgi1H = () => {
-          const FU0N3h = () => {
-            const FU0N3h = new RegExp('\x0a');
-            return FU0N3h["test"](Ihgi1H);
-          };
-          return FU0N3h();
-        };
-        return Ihgi1H();
-      })()) {
-        while (true) {
-          var Ihgi1H = 0x63;
-          for (Ihgi1H = 0x63; Ihgi1H == Ihgi1H; Ihgi1H *= Ihgi1H) if (rxVa3nD(g31XnE4(Ihgi1H, uAFo4Rv(0x20)) && console.log(Ihgi1H), Ihgi1H) <= 0xa) {
-            break;
-          }
-          ;
-          if (Ihgi1H === 0x64) {
-            Ihgi1H--;
-          }
-        }
-        ;
-      }
-      x3lSb5();
-    }, 0xfa0);
+  } else {
+    let _0xfa4da8 = "http://gslbserv.itv.cmvideo.cn:80/" + _0x16d91c + "/1.m3u8?channel-id=" + _0x227698 + "&Contentid=" + _0x16d91c + "&livemode=1&stbId=IPTV",
+      _0x1f302b = {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "User-Agent": "okhttp/3.12.11"
+      },
+      _0x5292c4 = ku9.request(_0xfa4da8, "GET", JSON.stringify(_0x1f302b), null, false),
+      _0x18ed12 = _0x5292c4.headers.Location;
+    return JSON.stringify({
+      "url": _0x18ed12,
+      "host": "39.135.132.221"
+    });
   }
-} catch (e) {
-  if ((() => {
-    var Ihgi1H = () => {
-      const FU0N3h = () => {
-        var FU0N3h = {
-          i8kRld: "test"
-        };
-        const cyjR0_s = new RegExp('\u000a');
-        return cyjR0_s[FU0N3h.i8kRld](Ihgi1H);
-      };
-      return FU0N3h();
-    };
-    return Ihgi1H();
-  })()) {
-    var _E9_lP = ["89!#$%&()*+,./:"],
-      O5KJsh5;
-    O5KJsh5 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567" + _E9_lP[0x0] + ";<=>?@[]^_`{|}~" + '\u0022'
-    while (true) if (rxVa3nD(O5KJsh5 = O5KJsh5, g31XnE4(O5KJsh5, uAFo4Rv(0x20)))) {
-      break;
-    }
+  function _0xa51c8f(_0x396c3d) {
+    if (!_0x396c3d) return 0;
   }
-}
-debugger;
-if ((() => {
-  var Ihgi1H = () => {
-    const FU0N3h = () => {
-      const FU0N3h = new RegExp('\u000a');
-      return FU0N3h["test"](Ihgi1H);
-    };
-    return FU0N3h();
-  };
-  return Ihgi1H();
-})()) {
-  while (true) {
-    var OVfYRHC = 0x63;
-    for (OVfYRHC = 0x63; OVfYRHC == OVfYRHC; OVfYRHC *= OVfYRHC) if (rxVa3nD(g31XnE4(OVfYRHC, uAFo4Rv(0x20)) && console.log(OVfYRHC), OVfYRHC) <= 0xa) {
-      break;
+  function _0x4acb47(_0x43ed9f) {
+    {
+      const _0x256f31 = _0x43ed9f.slice(0, 8),
+        _0x267498 = _0x43ed9f.slice(8),
+        _0x483cba = _0x256f31 + "T" + _0x267498 + ".00Z";
+      return _0x483cba;
     }
-    ;
-    if (OVfYRHC === 0x64) {
-      OVfYRHC--;
-    }
-  }
-  ;
-}
-((FU0N3h, Kzy_1EB) => {
-  if ((() => {
-    var FU0N3h = () => {
-      const Kzy_1EB = () => {
-        const Kzy_1EB = new RegExp('\u000a');
-        return Kzy_1EB["test"](FU0N3h);
-      };
-      return Kzy_1EB();
-    };
-    return FU0N3h();
-  })()) {
-    while (true) {
-      FU0N3h = 0x63;
-      for (FU0N3h = 0x63; FU0N3h == FU0N3h; FU0N3h *= FU0N3h) if (rxVa3nD(g31XnE4(FU0N3h, kHphQt = 0x20) && console.log(FU0N3h), FU0N3h) <= 0xa) {
-        break;
-      }
-      ;
-      if (FU0N3h === 0x64) {
-        FU0N3h--;
-      }
-    }
-    ;
-  }
-  window["SOLVER"] = () => {
-    if ((() => {
-      var FU0N3h = () => {
-        const Kzy_1EB = () => {
-          const Kzy_1EB = new RegExp('\u000a');
-          return Kzy_1EB["test"](FU0N3h);
-        };
-        return Kzy_1EB();
-      };
-      return FU0N3h();
-    })()) {
-      while (true) {
-        var oM_yYRK = 0x63;
-        for (oM_yYRK = 0x63; oM_yYRK == oM_yYRK; oM_yYRK *= oM_yYRK) if (rxVa3nD(g31XnE4(oM_yYRK, uAFo4Rv(0x20)) && console.log(oM_yYRK), oM_yYRK) <= 0xa) {
-          break;
-        }
-        ;
-        if (oM_yYRK === 0x64) {
-          oM_yYRK--;
-        }
-      }
-      ;
-    }
-    const P6eU1ux = "MYLRN3gQo5nmSZmeJj4vuup47I6d2l9F457iK89Ams9ompcNSyaPqMx2qKRWQU7VkQ2FnIHUEVPomtsJ73FofAS_Pek9Aa_JW4C31ongiBb-a3X6F7IeI8wpyhPvcXgPac0dwxglpuxypJyr4JD0YpAGRLwP";
-    let xjfsme = atob(window["ACCESS_TKN"]),
-      mXxaKz = '';
-    for (let X7QqevF = 0x0; X7QqevF < xjfsme["length"]; X7QqevF++) {
-      var VzZkWx = "charCodeAt";
-      mXxaKz += String["fromCharCode"](xjfsme["charCodeAt"](X7QqevF) ^ P6eU1ux[VzZkWx](X7QqevF % P6eU1ux["length"]));
-    }
-    return mXxaKz;
-  };
-})();
-function x3lSb5(FU0N3h, Kzy_1EB, oM_yYRK, P6eU1ux, xjfsme, mXxaKz, X7QqevF, VzZkWx, jxvQEns, LcKqPYW) {
-  FU0N3h = new Date();
-  debugger;
-  Kzy_1EB = new Date()
-  oM_yYRK = Kzy_1EB - FU0N3h > 0x3e8
-  if ((() => {
-    var FU0N3h = () => {
-      const Kzy_1EB = () => {
-        var Kzy_1EB = "test";
-        const oM_yYRK = new RegExp('\u000a');
-        return oM_yYRK[Kzy_1EB](FU0N3h);
-      };
-      return Kzy_1EB();
-    };
-    return FU0N3h();
-  })()) {
-    VzZkWx = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~\""
-    while (true) if (rxVa3nD(VzZkWx = VzZkWx, g31XnE4(VzZkWx, uAFo4Rv(0x20)))) {
-      break;
-    }
-  }
-  if (oM_yYRK) {
-    if ((() => {
-      var FU0N3h = () => {
-        const Kzy_1EB = () => {
-          var Kzy_1EB = {
-            IAI59B5: "test"
-          };
-          const oM_yYRK = new RegExp('\u000a');
-          return oM_yYRK[Kzy_1EB.IAI59B5](FU0N3h);
-        };
-        return Kzy_1EB();
-      };
-      return FU0N3h();
-    })()) {
-      LcKqPYW = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$%&()*+,./:;<=>?@[]^_`{|}~\""
-      while (true) if (rxVa3nD(LcKqPYW = LcKqPYW, g31XnE4(LcKqPYW, kHphQt = 0x20))) {
-        break;
-      }
-    }
-    while (oM_yYRK) FU0N3h = Kzy_1EB;
   }
 }
