@@ -1,47 +1,47 @@
-//Mon Apr 14 2025 09:09:22 GMT+0000 (Coordinated Universal Time)
+//Thu Apr 17 2025 05:39:29 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 function SourceOfTheIssue() {
-  var _0x457623 = document.currentScript;
-  var _0x263e0c = _0x457623.src.split("?");
-  var _0x50723a = new Object();
-  if (_0x263e0c.length > 1) {
-    var _0x20d814 = _0x263e0c[1].split("-");
-    for (var _0x43d57e = 0; _0x43d57e < _0x20d814.length; _0x43d57e++) {
-      var _0x1ddf8c = _0x20d814[_0x43d57e].split("=");
-      _0x50723a[_0x1ddf8c[0]] = _0x1ddf8c[1];
+  var _0x47fa5c = document.currentScript,
+    _0x413869 = _0x47fa5c.src.split("?"),
+    _0x2e587e = new Object();
+  if (_0x413869.length > 1) {
+    var _0x43094a = _0x413869[1].split("-");
+    for (var _0x3dae88 = 0; _0x3dae88 < _0x43094a.length; _0x3dae88++) {
+      {
+        var _0x1ac13b = _0x43094a[_0x3dae88].split("=");
+        _0x2e587e[_0x1ac13b[0]] = _0x1ac13b[1];
+      }
     }
   }
-  return _0x50723a;
+  return _0x2e587e;
 }
 var mids,
   killing_formalism,
   we_killing_formalism,
   We_re_all_cowards,
-  ISay = "are we anti-socialists? against the government? spies? traitor? fresh blood? no, we are just weak, sick bystanders; we just need to rot little by little with formalism until we finally become food for new shoots. ",
+  ISay = "are we anti-socialists? against the government? spies? traitor? fresh blood? no, we are just weak, sick bystanders; we just need to rot little by little with utilitarianism and infighting until we finally become food for new shoots.",
   RottenUs = SourceOfTheIssue();
 for (var ADropInTheSea in RottenUs) {
   if (ADropInTheSea == "mid") mids = RottenUs[ADropInTheSea];else ADropInTheSea == "nichts" ? We_re_all_cowards = RottenUs[ADropInTheSea] : (we_killing_formalism = ADropInTheSea, killing_formalism = RottenUs[ADropInTheSea]);
 }
 var CurseOfTheGoldenFlower = {};
 CurseOfTheGoldenFlower[we_killing_formalism] = killing_formalism;
-function OneWayTicket(_0x43c6b4) {
+function OneWayTicket(_0x2c4417) {
   StartKilling(function () {
-    {
-      var _0x64940b = [],
-        _0x32a804 = document.querySelectorAll("#btngroup .playbtn");
-      _0x32a804.forEach(_0xed5551 => {
-        _0x64940b.push({
-          "src": _0xed5551.dataset.src,
-          "id": _0xed5551.dataset.id,
-          "mid": _0xed5551.dataset.mid,
-          "sname": _0xed5551.dataset.sname,
-          "stype": _0xed5551.dataset.stype,
-          "subf": _0xed5551.dataset.subf
-        });
+    var _0x502e90 = [],
+      _0x27fcf6 = document.querySelectorAll("#btngroup .playbtn");
+    _0x27fcf6.forEach(_0x31fcc1 => {
+      _0x502e90.push({
+        "src": _0x31fcc1.dataset.src,
+        "id": _0x31fcc1.dataset.id,
+        "mid": _0x31fcc1.dataset.mid,
+        "sname": _0x31fcc1.dataset.sname,
+        "stype": _0x31fcc1.dataset.stype,
+        "subf": _0x31fcc1.dataset.subf
       });
-      _0x43c6b4(_0x64940b);
-    }
+    });
+    _0x2c4417(_0x502e90);
   });
 }
 var u = navigator.userAgent,
@@ -49,86 +49,89 @@ var u = navigator.userAgent,
   isAndroid = u.indexOf("Android") > -1 || u.indexOf("Linux") > -1,
   isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
   Rain = isdbime(u);
-function IwasKing(_0x28775f, _0x153154) {
-  if (_0x28775f.src.indexOf("https://") == -1 && _0x28775f.src.indexOf("http://") == -1) {
-    var _0x1bbe05 = atob(_0x28775f.src),
-      _0x1cedd3 = new Uint8Array(_0x1bbe05.length);
-    for (let _0x20093f = 0; _0x20093f < _0x1bbe05.length; _0x20093f++) {
-      _0x1cedd3[_0x20093f] = _0x1bbe05.charCodeAt(_0x20093f);
-    }
-    _0x28775f.src = _0x350ef8027(window[_0x350ef8027(window.DimGive("8069", mids, decodeURIComponent(killing_formalism)))](_0x1cedd3, mids, decodeURIComponent(killing_formalism)));
+function hexToUint8Array(_0x4aac0a) {
+  if (_0x4aac0a.length % 2 !== 0) throw new Error("err");
+  const _0x1f72e7 = new Uint8Array(_0x4aac0a.length / 2);
+  for (let _0x317df4 = 0; _0x317df4 < _0x4aac0a.length; _0x317df4 += 2) {
+    _0x1f72e7[_0x317df4 / 2] = parseInt(_0x4aac0a.substr(_0x317df4, 2), 16);
   }
-  if (_0x28775f.src.substring(_0x28775f.src.lastIndexOf("."), _0x28775f.src.length) == ".m3u8") {
+  return _0x1f72e7;
+}
+function IwasKing(_0x373c66, _0x5ebb96) {
+  if (_0x373c66.src.indexOf("https://") == -1 && _0x373c66.src.indexOf("http://") == -1) {
+    var _0x26c999 = hexToUint8Array(_0x373c66.src);
+    _0x373c66.src = _0x350ef8027(window[_0x350ef8027(window.DimGive("8069", mids, decodeURIComponent(killing_formalism)))](_0x26c999, mids, decodeURIComponent(killing_formalism)));
+  }
+  if (_0x373c66.src.substring(_0x373c66.src.lastIndexOf("."), _0x373c66.src.length) == ".m3u8") {
     if (isAndroid) pobj = {
-      "src": _0x28775f.src,
+      "src": _0x373c66.src,
       "type": "application/vnd.apple.mpegurl"
-    }, _0x153154(pobj);else isiOS ? ($.ajaxSettings.async = false, $.get(_0x28775f.src, function (_0x369bfb) {
-      var _0x452ca9 = "data:application/vnd.apple.mpegurl;base64," + btoa(_0x369bfb);
-      pobj = {
-        "src": _0x452ca9,
-        "type": "application/x-mpegurl"
-      };
-      _0x153154(pobj);
-    })) : (pobj = {
-      "src": _0x28775f.src,
-      "type": "application/vnd.apple.mpegurl"
-    }, _0x153154(pobj));
-  } else {
-    if (_0x28775f.src.substring(_0x28775f.src.lastIndexOf("."), _0x28775f.src.length) == ".gazes_v-@_info" || _0x28775f.src.indexOf("+gazes_v-@_info") != -1) TheBigShip(_0x28775f.src, function (_0x1cecc8) {
+    }, _0x5ebb96(pobj);else {
       if (isiOS) {
-        var _0x4530f1 = "data:application/vnd.apple.mpegurl;base64," + btoa(_0x1cecc8);
+        $.ajaxSettings.async = false;
+        $.get(_0x373c66.src, function (_0x36f909) {
+          var _0x56d781 = "data:application/vnd.apple.mpegurl;base64," + btoa(_0x36f909);
+          pobj = {
+            "src": _0x56d781,
+            "type": "application/x-mpegurl"
+          };
+          _0x5ebb96(pobj);
+        });
+      } else {
         pobj = {
-          "src": _0x4530f1,
+          "src": _0x373c66.src,
           "type": "application/vnd.apple.mpegurl"
         };
-        _0x153154(pobj);
+        _0x5ebb96(pobj);
+      }
+    }
+  } else {
+    if (_0x373c66.src.substring(_0x373c66.src.lastIndexOf("."), _0x373c66.src.length) == ".gazes_v-@_info" || _0x373c66.src.indexOf("+gazes_v-@_info") != -1) TheBigShip(_0x373c66.src, function (_0x57022b) {
+      if (isiOS) {
+        var _0x3a9bd3 = "data:application/vnd.apple.mpegurl;base64," + btoa(_0x57022b);
+        pobj = {
+          "src": _0x3a9bd3,
+          "type": "application/vnd.apple.mpegurl"
+        };
+        _0x5ebb96(pobj);
       } else {
         {
-          var _0x253d44 = new Blob([window.allnothing + _0x1cecc8], {
+          var _0x23fdaa = new Blob([window.allnothing + _0x57022b], {
             "type": "image/png"
           });
           pobj = {
-            "src": window.URL.createObjectURL(_0x253d44),
+            "src": window.URL.createObjectURL(_0x23fdaa),
             "type": "application/vnd.apple.mpegurl"
           };
-          _0x153154(pobj);
+          _0x5ebb96(pobj);
         }
       }
     });else {
-      if (_0x28775f.src.substring(_0x28775f.src.lastIndexOf("."), _0x28775f.src.length) == ".nothing") {
-        {
-          if (isiOS) {
-            $.ajaxSettings.async = false;
-            $.get(_0x28775f.src, function (_0xf89b86) {
-              {
-                var _0x24043d = "data:application/dash+xml;base64," + btoa(_0xf89b86);
-                pobj = {
-                  "src": _0x24043d,
-                  "type": "application/dash+xml"
-                };
-                _0x153154(pobj);
-              }
-            });
-          } else _0x153154({
-            "src": _0x28775f.src,
-            "type": "application/dash+xml"
-          });
-        }
-      } else _0x28775f.src.indexOf("cloud.189.cn") != -1 ? $.post({
+      if (_0x373c66.src.substring(_0x373c66.src.lastIndexOf("."), _0x373c66.src.length) == ".nothing") isiOS ? ($.ajaxSettings.async = false, $.get(_0x373c66.src, function (_0x4f9940) {
+        var _0x3c5051 = "data:application/dash+xml;base64," + btoa(_0x4f9940);
+        pobj = {
+          "src": _0x3c5051,
+          "type": "application/dash+xml"
+        };
+        _0x5ebb96(pobj);
+      })) : _0x5ebb96({
+        "src": _0x373c66.src,
+        "type": "application/dash+xml"
+      });else _0x373c66.src.indexOf("cloud.189.cn") != -1 ? $.post({
         "url": "/fetch_189c_murl",
         "headers": CurseOfTheGoldenFlower,
         "data": {
-          "urls": _0x28775f.src,
+          "urls": _0x373c66.src,
           "mid": mids
         },
-        "success": function (_0x1fdb21) {
-          _0x153154({
-            "src": _0x1fdb21.url,
+        "success": function (_0x4ef6f9) {
+          _0x5ebb96({
+            "src": _0x4ef6f9.url,
             "type": "video/mp4"
           });
         }
-      }) : _0x153154({
-        "src": _0x28775f.src,
+      }) : _0x5ebb96({
+        "src": _0x373c66.src,
         "type": "video/mp4"
       });
     }
@@ -136,85 +139,83 @@ function IwasKing(_0x28775f, _0x153154) {
   $(".vjs-big-play-button").addClass("vjs-loaded-icon");
 }
 var byteArray = [];
-function TheBigShip(_0xd57642, _0x113144) {
-  var _0xced9f8 = new XMLHttpRequest();
-  _0xced9f8.open("get", _0xd57642, false);
-  var _0x53aca9 = _0xd57642.split("/").pop();
-  _0xced9f8.overrideMimeType("text/plain; charset=x-user-defined");
-  _0xced9f8.onload = function () {
-    {
-      if (this.status == 200) {
-        var _0x371720 = this.response;
-        byteArray = [];
-        for (var _0x409709 = 0; _0x409709 < _0x371720.length; ++_0x409709) {
-          byteArray.push(_0x371720.charCodeAt(_0x409709) & 255);
-        }
-        var _0x2cc4b1 = new Uint8Array(byteArray),
-          _0x4fce6e = pako.inflate(_0x2cc4b1, {
-            "to": "string"
-          }),
-          _0x3fc1ef = decodeURIComponent(_0x53aca9),
-          _0x33025c = md5(_0x3fc1ef + "- " + ISay),
-          _0x1bc9fc = CryptoJS.enc.Base64.parse(_0x4fce6e);
-        byteArray = [];
-        for (let _0x4fcc96 = 0; _0x4fcc96 < _0x1bc9fc.sigBytes; _0x4fcc96++) {
-          byteArray[_0x4fcc96] = _0x1bc9fc.words[_0x4fcc96 >>> 2] >>> 24 - _0x4fcc96 % 4 * 8 & 255;
-        }
-        _0x2cc4b1 = new Uint8Array(byteArray);
-        var _0x2b5f59 = window[_0x350ef8027(window.DimGive("nihilism", mids, decodeURIComponent(killing_formalism)))](_0x2cc4b1, _0x33025c, mids, decodeURIComponent(killing_formalism)),
-          _0x4c6cbc = pedantic_tradition.servility(_0x2b5f59);
-        byteArray = [];
-        _0x2cc4b1 = [];
-        _0x113144(_0x350ef8027(_0x4c6cbc));
-      } else (this.status == 404 || this.status == 403) && (player.error({
-        "code": 404,
-        "message": "(" + this.status + ")资源丢失，见谅晚点修复",
-        "type": "MEDIA_ERR_SRC_NOT_SUPPORTED",
-        "dismiss": false
-      }), $.post("/video_err_log", {
-        "title": "404",
-        "mid": window.mid,
-        "url": _0xd57642
-      }, function (_0x11cc80) {}));
-    }
+function TheBigShip(_0xcc0cf9, _0x544208) {
+  var _0x21f116 = new XMLHttpRequest();
+  _0x21f116.open("get", _0xcc0cf9, false);
+  var _0x35ee6d = _0xcc0cf9.split("/").pop();
+  _0x21f116.overrideMimeType("text/plain; charset=x-user-defined");
+  _0x21f116.onload = function () {
+    if (this.status == 200) {
+      var _0x3b8a62 = this.response;
+      byteArray = [];
+      for (var _0x209937 = 0; _0x209937 < _0x3b8a62.length; ++_0x209937) {
+        byteArray.push(_0x3b8a62.charCodeAt(_0x209937) & 255);
+      }
+      var _0x3f0292 = new Uint8Array(byteArray),
+        _0x4de0b4 = pako.inflate(_0x3f0292, {
+          "to": "string"
+        }),
+        _0x41e0dc = decodeURIComponent(_0x35ee6d),
+        _0x786364 = md5(_0x41e0dc + "- " + ISay),
+        _0x26048d = CryptoJS.enc.Base64.parse(_0x4de0b4);
+      byteArray = [];
+      for (let _0x3d1d62 = 0; _0x3d1d62 < _0x26048d.sigBytes; _0x3d1d62++) {
+        byteArray[_0x3d1d62] = _0x26048d.words[_0x3d1d62 >>> 2] >>> 24 - _0x3d1d62 % 4 * 8 & 255;
+      }
+      _0x3f0292 = new Uint8Array(byteArray);
+      var _0x3de7bb = window[_0x350ef8027(window.DimGive("nihilism", mids, decodeURIComponent(killing_formalism)))](_0x3f0292, _0x786364, mids, decodeURIComponent(killing_formalism)),
+        _0x4e22f5 = pedantic_tradition.servility(_0x3de7bb);
+      byteArray = [];
+      _0x3f0292 = [];
+      _0x544208(window.epi(_0x350ef8027(_0x4e22f5)));
+    } else (this.status == 404 || this.status == 403) && (player.error({
+      "code": 404,
+      "message": "(" + this.status + ")资源丢失，见谅晚点修复",
+      "type": "MEDIA_ERR_SRC_NOT_SUPPORTED",
+      "dismiss": false
+    }), $.post("/video_err_log", {
+      "title": "404",
+      "mid": window.mid,
+      "url": _0xcc0cf9
+    }, function (_0x2afa80) {}));
   };
-  _0xced9f8.send();
+  _0x21f116.send();
 }
-var WASM_URL = "https://oos-cn.ctyunapi.cn/allnothing/static/IceDespair-V2.7.1.svg",
+var WASM_URL = "https://oos-cn.ctyunapi.cn/allnothing/static/IceDespair-V3.1.svg",
   wasm;
-function StartKilling(_0x2c0931) {
-  var _0x5de8e0 = new Go();
+function StartKilling(_0x27edad) {
+  var _0x10c5ee = new Go();
   fetch(WASM_URL, {
     "method": "GET",
     "headers": {
       "Content-Type": "application/wasm"
     }
-  }).then(_0x894789 => {
-    return _0x894789.clone().arrayBuffer();
-  }).then(_0x1657fa => {
-    return pedantic_tradition.servility(new Uint8Array(_0x1657fa));
-  }).then(_0x24b8f6 => {
-    return WebAssembly.instantiate(_0x24b8f6, _0x5de8e0.importObject);
-  }).then(_0x40905e => {
-    wasm = _0x40905e.instance;
-    _0x5de8e0.run(wasm);
-    _0x2c0931();
-  }).catch(_0x4b25b7 => {
-    console.error("Error loading wasm:", _0x4b25b7);
+  }).then(_0x402ae2 => {
+    return _0x402ae2.clone().arrayBuffer();
+  }).then(_0x14477c => {
+    return pedantic_tradition.servility(new Uint8Array(_0x14477c));
+  }).then(_0x4db6e3 => {
+    return WebAssembly.instantiate(_0x4db6e3, _0x10c5ee.importObject);
+  }).then(_0x146853 => {
+    wasm = _0x146853.instance;
+    _0x10c5ee.run(wasm);
+    _0x27edad();
+  }).catch(_0x3d79f5 => {
+    console.error("Error loading wasm:", _0x3d79f5);
   });
 }
-function _0x350ef8027(_0x13414a) {
-  var _0x3932e7 = "";
-  for (let _0x4f3baa = 0; _0x4f3baa < _0x13414a.length; _0x4f3baa++) {
-    _0x3932e7 += String.fromCharCode(_0x13414a[_0x4f3baa]);
+function _0x350ef8027(_0x182d77) {
+  var _0x3a087e = "";
+  for (let _0x2655d4 = 0; _0x2655d4 < _0x182d77.length; _0x2655d4++) {
+    _0x3a087e += String.fromCharCode(_0x182d77[_0x2655d4]);
   }
-  return _0x3932e7;
+  return _0x3a087e;
 }
-function md5(_0x982d5) {
-  return CryptoJS.MD5(_0x982d5).toString().substring(8, 24);
+function md5(_0x47d651) {
+  return CryptoJS.MD5(_0x47d651).toString();
 }
-function isdbime(_0x4b947a) {
-  var _0x417bdd = /(iOS|Mac)/,
-    _0x4db1a0 = new RegExp(_0x417bdd.source + ".*Edg");
-  return _0x4db1a0.test(_0x4b947a);
+function isdbime(_0x21d51e) {
+  var _0x1a38e6 = /(iOS|Mac)/,
+    _0x4fc4ce = new RegExp(_0x1a38e6.source + ".*Edg");
+  return _0x4fc4ce.test(_0x21d51e);
 }
