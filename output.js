@@ -1,61 +1,14 @@
-//Sat May 03 2025 22:57:27 GMT+0000 (Coordinated Universal Time)
+//Sun May 04 2025 02:38:36 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-function _0x10b1() {
-  const t = ["1394532YgKRKL", "16717wPOjHU", "isJSONObject", "getCache", "578824oJgrOF", "url", "2nwxBGj", "888438XeflwS", "setCache", "ywotttv_token", "playurl", "5bUAwjA", "post", "8952526peKtMC", "获取接口返回格式不正确！", "1658001HJvuGy", "returncode", "35ckISJn", "parse", "get", "http://117.133.4.148:33200/EPG/interEpg/user/default/authorize?timestamp=", "getQuery", "获取Token接口返回格式不正确！", "description", "20drJXaJ", "http://117.133.4.148:33200/EPG/oauth/v2/token?grant_type=EncryToken&client_id=android&UserID=748F1B53CB74&authinfo=90A746B26981AFD787C355CD526E93C603059C52D437539AD5FE6FC96296DA1BB5DB8D6F07500DA14978BB2883C75C14F5BC616B6083E5F72C30312FD948EE5099F3F1B359ACCA046519EBB9BB678765F898E6C838BBB769D3DDAA8F9951C186DA29F632C5611ABFBE46162C97FC6A9CC84F86F62B62A6283CD55123023345147618D3CE7EE605A5", "access_token", "5905737iRhiiP"];
-  return (_0x10b1 = function () {
-    return t;
-  })();
+function main(_0x2f23e4) {
+  let _0x1bf486 = _0x2f23e4.url;
+  let _0x1e6958 = ku9.getQuery(_0x1bf486, "id");
+  let _0x4c79ed = {};
+  const _0x34b041 = "http://www.xzbn.site:35455/bptv/" + _0x1e6958 + ".m3u8";
+  return JSON.stringify({
+    "url": _0x34b041,
+    "headers": _0x4c79ed
+  });
 }
-function _0x3145(t, n) {
-  const e = _0x10b1();
-  return (_0x3145 = function (t, n) {
-    return e[t -= 239];
-  })(t, n);
-}
-function main(t) {
-  const n = _0x3145,
-    e = jz[n(265)](t[n(249)], "id"),
-    r = {
-      Authorization: getToken()
-    },
-    o = {
-      businessType: "6",
-      cid: e,
-      contentType: "1",
-      idflag: "1",
-      playType: "2",
-      tid: "-1"
-    },
-    s = jz[n(256)](n(264) + Math.floor(Date.now() / 1e3), r, o);
-  if (!jz[n(246)](s)) return {
-    error: n(258)
-  };
-  const i = JSON[n(262)](s);
-  return "0" !== i[n(260)] ? {
-    error: i[n(239)]
-  } : {
-    url: i.urls[0][n(254)]
-  };
-}
-function getToken() {
-  const t = _0x3145,
-    n = jz[t(247)](t(253));
-  if (n) return n;
-  const e = jz[t(263)](t(241));
-  if (!jz[t(246)](e)) return {
-    error: t(266)
-  };
-  const r = JSON[t(262)](e)[t(242)];
-  return jz[t(252)]("ywotttv_token", r, 86e3), r;
-}
-!function () {
-  const t = _0x3145,
-    n = _0x10b1();
-  for (;;) try {
-    if (964480 === -parseInt(t(245)) / 1 + parseInt(t(250)) / 2 * (-parseInt(t(259)) / 3) + parseInt(t(244)) / 4 + -parseInt(t(255)) / 5 * (parseInt(t(251)) / 6) + parseInt(t(261)) / 7 * (parseInt(t(248)) / 8) + -parseInt(t(243)) / 9 + -parseInt(t(240)) / 10 * (-parseInt(t(257)) / 11)) break;
-    n.push(n.shift());
-  } catch (t) {
-    n.push(n.shift());
-  }
-}();
+_0xodZ = "jsjiami.com.v6";
