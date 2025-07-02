@@ -1,24 +1,24 @@
-//Wed Jul 02 2025 09:43:59 GMT+0000 (Coordinated Universal Time)
+//Wed Jul 02 2025 10:05:51 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
 (function () {})();
 function getHourlyTimestamp() {
-  const _0x23f554 = new Date();
-  _0x23f554.setMinutes(0);
-  _0x23f554.setSeconds(0);
-  _0x23f554.setMilliseconds(0);
-  return _0x23f554.getTime();
+  const _0x498542 = new Date();
+  _0x498542.setMinutes(0);
+  _0x498542.setSeconds(0);
+  _0x498542.setMilliseconds(0);
+  return _0x498542.getTime();
 }
-function sha256(_0x2ffdfe) {
-  return new Promise((_0x34b1dd, _0x4514fa) => {
-    const _0x3040b5 = new TextEncoder().encode(_0x2ffdfe);
-    window.crypto.subtle.digest("SHA-256", _0x3040b5).then(_0x2f42f9 => {
-      const _0x1990ef = Array.from(new Uint8Array(_0x2f42f9)),
-        _0x2d590e = _0x1990ef.map(_0x144297 => _0x144297.toString(16).padStart(2, "0")).join("");
-      _0x34b1dd(_0x2d590e);
-    }).catch(_0x2fef36 => {
-      console.error("Error computing SHA-256 hash:", _0x2fef36);
-      _0x4514fa(_0x2fef36);
+function sha256(_0x56ec1d) {
+  return new Promise((_0x9ff55d, _0x3ad36a) => {
+    const _0x338cdf = new TextEncoder().encode(_0x56ec1d);
+    window.crypto.subtle.digest("SHA-256", _0x338cdf).then(_0x1b98af => {
+      const _0x2601d0 = Array.from(new Uint8Array(_0x1b98af)),
+        _0x42ec8b = _0x2601d0.map(_0x1f6eca => _0x1f6eca.toString(16).padStart(2, "0")).join("");
+      _0x9ff55d(_0x42ec8b);
+    }).catch(_0x33f8a0 => {
+      console.error("Error computing SHA-256 hash:", _0x33f8a0);
+      _0x3ad36a(_0x33f8a0);
     });
   });
 }
@@ -26,19 +26,30 @@ var stray = {
   "start": function () {
     $.ajaxSettings.timeout = 30000;
     $.ajaxSettings.async = true;
-    sha256(getHourlyTimestamp() / 1000 + "jarod").then(_0x3d0f85 => {
-      $.post("https://mmsadf.520559.xyz/post.php", JSON.stringify({
+    sha256(getHourlyTimestamp() / 1000 + "knvod").then(_0x2ddd61 => {
+      $.post("https://yyds.cdnjson.xyz/post.php", JSON.stringify({
         "url": config.url,
         "pbgjz": config.pbgjz,
         "dmkey": config.dmkey,
-        "key": _0x3d0f85
-      }), function (_0x1697aa) {
-        _0x1697aa.code == "200" ? (stray.url = _0x1697aa.jarod, stray.dmkey = _0x1697aa.dmkey, stray.zantingguanggaoqidong = 0, stray.zantingguanggaourl = _0x1697aa.zantingguanggaourl, stray.zantingguanggaolianjie = _0x1697aa.zantingguanggaolianjie, stray.pbgjz = _0x1697aa.pbgjz, stray.type = stray.videotype(_0x1697aa.jarod, _0x1697aa.type), $("#loading").remove(), $("body").append("<div id=\"artplayer\" class=\"artplayer-app\" style=\"width:100%;height:100%;padding:0;margin:0\"></div>"), stray.DmPlayer()) : TheError();
-      }, "json").fail(function (_0x1e21ec, _0x31e19d, _0x2d2050) {
+        "key": _0x2ddd61
+      }), function (_0x410482) {
+        if (_0x410482.code == "200") {
+          stray.url = _0x410482.knvod;
+          stray.dmkey = _0x410482.dmkey;
+          stray.zantingguanggaoqidong = 0;
+          stray.zantingguanggaourl = _0x410482.zantingguanggaourl;
+          stray.zantingguanggaolianjie = _0x410482.zantingguanggaolianjie;
+          stray.pbgjz = _0x410482.pbgjz;
+          stray.type = stray.videotype(_0x410482.knvod, _0x410482.type);
+          $("#loading").remove();
+          $("body").append("<div id=\"artplayer\" class=\"artplayer-app\" style=\"width:100%;height:100%;padding:0;margin:0\"></div>");
+          stray.DmPlayer();
+        } else TheError();
+      }, "json").fail(function (_0x2b61fa, _0xb90a54, _0x334d92) {
         TheError();
       });
-    }).catch(_0x3b50ce => {
-      console.error("Error computing SHA-256 hash:", _0x3b50ce);
+    }).catch(_0x126cdd => {
+      console.error("Error computing SHA-256 hash:", _0x126cdd);
       TheError();
     });
   },
@@ -84,41 +95,39 @@ var stray = {
       },
       "plugins": [artplayerPluginDanmuku({
         "danmuku": async function () {
-          return new Promise(async _0x3c2bf5 => {
-            {
-              const _0x36cbc2 = await fetch("https://mmsadf.520559.xyz/dmku/?ac=dm&type=json&id=" + stray.dmkey),
-                _0x392757 = await _0x36cbc2.json(),
-                _0x4cb087 = _0x392757.danmuku ?? [],
-                _0x42145a = await fetch("https://dmku.m3u8.news/dm.php?url=" + config.url),
-                _0x520222 = await _0x42145a.json(),
-                _0x178fed = _0x520222.danmuku ?? [];
-              let _0x2b303a = [];
-              const _0x392c3e = ["#008B00", "#00EE76", "#EEEE00", "#FF6A6A", "#FF0000", "#FF69B4", "#7B68EE", "#98FB98"];
-              function _0x467e20() {
-                return _0x392c3e[Math.floor(Math.random() * _0x392c3e.length)];
-              }
-              for (let _0xd77005 = 0; _0xd77005 < _0x4cb087.length; _0xd77005++) {
-                const _0x44aa9c = _0x4cb087[_0xd77005];
-                _0x2b303a.push({
-                  "time": Number(_0x44aa9c.time),
-                  "mode": typeof _0x44aa9c.mode === "number" ? _0x44aa9c.mode : _0x44aa9c.mode === "right" ? 0 : 1,
-                  "color": _0x467e20(),
-                  "text": _0x44aa9c.text
+          return new Promise(async _0x328be2 => {
+            const _0x43777c = await fetch("https://yyds.cdnjson.xyz/dmku/?ac=dm&type=json&id=" + stray.dmkey),
+              _0x54e1d4 = await _0x43777c.json(),
+              _0x5dee80 = _0x54e1d4.danmuku ?? [],
+              _0x42829b = await fetch("https://dmku.m3u8.news/dm.php?url=" + config.url),
+              _0x338c6c = await _0x42829b.json(),
+              _0x679efb = _0x338c6c.danmuku ?? [];
+            let _0x37390d = [];
+            const _0x101a2e = ["#008B00", "#00EE76", "#EEEE00", "#FF6A6A", "#FF0000", "#FF69B4", "#7B68EE", "#98FB98"];
+            function _0xcbd3fb() {
+              return _0x101a2e[Math.floor(Math.random() * _0x101a2e.length)];
+            }
+            for (let _0xfb1eee = 0; _0xfb1eee < _0x5dee80.length; _0xfb1eee++) {
+              {
+                const _0x4ed0c5 = _0x5dee80[_0xfb1eee];
+                _0x37390d.push({
+                  "time": Number(_0x4ed0c5.time),
+                  "mode": typeof _0x4ed0c5.mode === "number" ? _0x4ed0c5.mode : _0x4ed0c5.mode === "right" ? 0 : 1,
+                  "color": _0xcbd3fb(),
+                  "text": _0x4ed0c5.text
                 });
               }
-              for (let _0x370954 = 0; _0x370954 < _0x178fed.length; _0x370954++) {
-                {
-                  const _0x101178 = _0x178fed[_0x370954];
-                  _0x2b303a.push({
-                    "time": Number(_0x101178[0]),
-                    "mode": _0x101178[1].includes("right") ? 0 : 1,
-                    "color": _0x467e20(),
-                    "text": _0x101178[4]
-                  });
-                }
-              }
-              _0x3c2bf5(_0x2b303a);
             }
+            for (let _0x197755 = 0; _0x197755 < _0x679efb.length; _0x197755++) {
+              const _0x5d4007 = _0x679efb[_0x197755];
+              _0x37390d.push({
+                "time": Number(_0x5d4007[0]),
+                "mode": _0x5d4007[1].includes("right") ? 0 : 1,
+                "color": _0xcbd3fb(),
+                "text": _0x5d4007[4]
+              });
+            }
+            _0x328be2(_0x37390d);
           });
         },
         "speed": 8.5,
@@ -129,13 +138,13 @@ var stray = {
         "margin": [10, "75%"],
         "antiOverlap": true,
         "synchronousPlayback": true,
-        "filter": _0x4a29f6 => _0x4a29f6.text.length < 50,
+        "filter": _0x1d21dd => _0x1d21dd.text.length < 50,
         "lockTime": 6,
         "heatmap": true
       })]
     });
-    let _0x2b7a82 = $(".art-video-player");
-    _0x2b7a82.prepend("<div class=\"vodlist-of danmu-hide\"></div><div class=\"ec-listbox\"><div class=\"anthology-wrap\"></div></div></div><div class=\"r-button\"><span class=\"yzmplayer-icon-content\"><svg viewBox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M448 128a106.667 106.667 0 0 1 106.667 106.667v576A106.667 106.667 0 0 1 448 917.333H128A106.667 106.667 0 0 1 21.333 810.667v-576A106.667 106.667 0 0 1 128 128h320z m448 256a106.667 106.667 0 0 1 106.667 106.667v320A106.667 106.667 0 0 1 896 917.333H661.333a42.667 42.667 0 1 1 0-85.333H896a21.333 21.333 0 0 0 21.333-21.333v-320A21.333 21.333 0 0 0 896 469.333H661.333a42.667 42.667 0 1 1 0-85.333zM448 213.333H128a21.333 21.333 0 0 0-21.333 21.334v554.666A21.333 21.333 0 0 0 128 810.667h320a21.333 21.333 0 0 0 21.333-21.334V234.667A21.333 21.333 0 0 0 448 213.333zM384 672a32 32 0 0 1 0 64H213.333a32 32 0 0 1 0-64z\"></path></svg></span></div>");
+    let _0x25fb46 = $(".art-video-player");
+    _0x25fb46.prepend("<div class=\"vodlist-of danmu-hide\"></div><div class=\"ec-listbox\"><div class=\"anthology-wrap\"></div></div></div><div class=\"r-button\"><span class=\"yzmplayer-icon-content\"><svg viewBox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M448 128a106.667 106.667 0 0 1 106.667 106.667v576A106.667 106.667 0 0 1 448 917.333H128A106.667 106.667 0 0 1 21.333 810.667v-576A106.667 106.667 0 0 1 128 128h320z m448 256a106.667 106.667 0 0 1 106.667 106.667v320A106.667 106.667 0 0 1 896 917.333H661.333a42.667 42.667 0 1 1 0-85.333H896a21.333 21.333 0 0 0 21.333-21.333v-320A21.333 21.333 0 0 0 896 469.333H661.333a42.667 42.667 0 1 1 0-85.333zM448 213.333H128a21.333 21.333 0 0 0-21.333 21.334v554.666A21.333 21.333 0 0 0 128 810.667h320a21.333 21.333 0 0 0 21.333-21.334V234.667A21.333 21.333 0 0 0 448 213.333zM384 672a32 32 0 0 1 0 64H213.333a32 32 0 0 1 0-64z\"></path></svg></span></div>");
     $(document).on("click", ".vodlist-of", function () {
       $(".ec-listbox").removeClass("ec-stting");
       $(this).hide();
@@ -161,78 +170,74 @@ var stray = {
     $(".art-controls-center").addClass("dm-input-show");
     stray.load();
     stray.DanMu.initial();
-    stray.ad.on("artplayerPluginDanmuku:emit", _0x10adac => {
-      stray.DanMu.add(_0x10adac);
+    stray.ad.on("artplayerPluginDanmuku:emit", _0x41bd31 => {
+      stray.DanMu.add(_0x41bd31);
     });
   },
   "load": function () {
     stray.nextcass();
     stray.ad.on("video:loadedmetadata", () => {
-      var _0x373a60 = localStorage.getItem(stray.dmkey);
-      stray.ad.seek = _0x373a60;
+      var _0x447c0e = localStorage.getItem(stray.dmkey);
+      stray.ad.seek = _0x447c0e;
     });
     stray.ad.on("video:timeupdate", () => {
-      var _0xac1be4 = Math.floor(stray.ad.currentTime);
-      localStorage.setItem(stray.dmkey, _0xac1be4);
+      {
+        var _0x3198f9 = Math.floor(stray.ad.currentTime);
+        localStorage.setItem(stray.dmkey, _0x3198f9);
+      }
     });
     stray.ad.on("video:pause", () => {
-      {
-        if (stray.zantingguanggaoqidong == 1) {
-          stray.pause.play(stray.zantingguanggaolianjie, stray.zantingguanggaourl);
-        }
-      }
+      stray.zantingguanggaoqidong == 1 && stray.pause.play(stray.zantingguanggaolianjie, stray.zantingguanggaourl);
     });
     stray.ad.on("video:play", () => {
       stray.zantingguanggaoqidong == 1 && stray.pause.out();
     });
     stray.ad.on("video:ended", () => {
       localStorage.removeItem(stray.dmkey);
-      if (!!config.next) {
-        top.location.href = config.next;
-      }
+      !!config.next && (top.location.href = config.next);
     });
   },
   "DanMu": {
     "initial": function () {
-      stray.ad.on("artplayerPluginDanmuku:error", _0x2cb5c0 => {
+      stray.ad.on("artplayerPluginDanmuku:error", _0x1d67b5 => {
         stray.Msg("没有弹幕", 2000);
       });
       $(document).on("click", ".player-comment-setting-icon", function () {
         stray.ad.plugins.artplayerPluginDanmuku.isHide ? (stray.ad.plugins.artplayerPluginDanmuku.show(), $(this).addClass("danmu-setting-show").removeClass("danmu-setting-hide")) : (stray.ad.plugins.artplayerPluginDanmuku.hide(), $(this).addClass("danmu-setting-hide").removeClass("danmu-setting-show"));
       });
     },
-    "add": function (_0x4b6f9e) {
-      if (_0x4b6f9e.text < 1) {
+    "add": function (_0x3e6eca) {
+      if (_0x3e6eca.text < 1) {
         {
           stray.Msg("要输入内容啊~", 2000);
           return;
         }
       }
-      if (stray.pbgjz.length > 0) for (var _0x2a668c = 0; _0x2a668c < stray.pbgjz.length; _0x2a668c++) {
-        if (_0x4b6f9e.text.search(stray.pbgjz[_0x2a668c]) != -1) {
-          {
-            stray.Msg("您发送的内容含有敏感字符，请规范您的弹幕内容", 2000);
+      if (stray.pbgjz.length > 0) {
+        for (var _0x17e09f = 0; _0x17e09f < stray.pbgjz.length; _0x17e09f++) {
+          if (_0x3e6eca.text.search(stray.pbgjz[_0x17e09f]) != -1) {
+            stray.Msg("鎮ㄥ彂閫佺殑鍐呭鍚湁鏁忔劅瀛楃锛岃瑙勮寖鎮ㄧ殑寮瑰箷鍐呭", 2000);
             return;
           }
         }
       }
       $.ajax({
-        "url": "https://mmsadf.520559.xyz/dmku/?ac=dm",
+        "url": "https://yyds.cdnjson.xyz/dmku/?ac=dm",
         "type": "post",
         "dataType": "json",
         "contentType": "application/x-www-form-urlencoded",
         "data": JSON.stringify({
           "player": stray.dmkey,
           "author": "",
-          "time": _0x4b6f9e.time,
-          "text": _0x4b6f9e.text,
-          "color": getrgb(_0x4b6f9e.color),
+          "time": _0x3e6eca.time,
+          "text": _0x3e6eca.text,
+          "color": getrgb(_0x3e6eca.color),
           "type": "right",
           "size": "32px",
           "referer": getreferrer()
         }),
-        "success": function (_0x28e1fc) {
-          _0x28e1fc.code != "23" && stray.Msg(_0x28e1fc.msg, 2000);
+        "success": function (_0x5915ac) {
+          _0x5915ac.code != "23" && stray.Msg(_0x5915ac.msg, 2000);
         },
         "error": function () {
           stray.Msg("弹幕发送失败", 2000);
@@ -250,9 +255,9 @@ var stray = {
     }
   },
   "pause": {
-    "play": function (_0x197850, _0x3c4400) {
-      let _0x33ae84 = "<div id=\"player_pause\"><div class=\"tip\" style=\"left:0;bottom:6px\">广告</div><div class=\"tip g_close\"><a href=\"javascript:\" title=\"关闭广告\" style=\"color:#f4f4f4\">X</a></div><a href=\"" + _0x197850 + "\" target=\"_blank\"><img src=\"" + _0x3c4400 + "\"></a><script>$(\".g_close\").click(function(){$(this).parent().remove()})</script></div>";
-      $(".art-video-player").prepend(_0x33ae84);
+    "play": function (_0x3a9ae4, _0x2dc88c) {
+      let _0x4bf345 = "<div id=\"player_pause\"><div class=\"tip\" style=\"left:0;bottom:6px\">广告</div><div class=\"tip g_close\"><a href=\"javascript:\" title=\"关闭广告\" style=\"color:#f4f4f4\">X</a></div><a href=\"" + _0x3a9ae4 + "\" target=\"_blank\"><img src=\"" + _0x2dc88c + "\"></a><script>$(\".g_close\").click(function(){$(this).parent().remove()})</script></div>";
+      $(".art-video-player").prepend(_0x4bf345);
     },
     "out": function () {
       $("#player_pause").remove();
@@ -261,129 +266,112 @@ var stray = {
   "RemoveMsg": function () {
     $(".pop-msg").remove();
   },
-  "Msg": function (_0x58d7c9, _0x333df9) {
+  "Msg": function (_0x1e9510, _0x42f2ca) {
     $(".art-video-player").prepend("<div class=\"pop-msg\"><div class=\"pop-content\"></div></div>");
     $(".pop-msg .pop-close").click(function () {
       $(".pop-msg").remove();
     });
-    $(".pop-msg .pop-content").html(_0x58d7c9);
+    $(".pop-msg .pop-content").html(_0x1e9510);
     $(".pop-msg").show();
-    setTimeout(stray.RemoveMsg, _0x333df9);
+    setTimeout(stray.RemoveMsg, _0x42f2ca);
   },
-  "videotype": function (_0xa085ec, _0x13b743) {
-    if (_0xa085ec.indexOf(".m3u8") > 0) {
-      thetype = "m3u8";
-    } else {
-      if (_0xa085ec.indexOf(".flv") > 0) {
-        thetype = "flv";
-      } else {
-        if (_0xa085ec.indexOf(".ts") > 0) thetype = "ts";else {
-          if (_0xa085ec.indexOf(".mpd") > 0) thetype = "mpd";else {
-            if (_0x13b743 == "hls" || _0x13b743 == "m3u8") thetype = "m3u8";else {
-              thetype = _0x13b743;
-            }
-          }
-        }
+  "videotype": function (_0x34a902, _0x22397e) {
+    if (_0x34a902.indexOf(".m3u8") > 0) thetype = "m3u8";else {
+      if (_0x34a902.indexOf(".flv") > 0) thetype = "flv";else {
+        if (_0x34a902.indexOf(".ts") > 0) thetype = "ts";else _0x34a902.indexOf(".mpd") > 0 ? thetype = "mpd" : _0x22397e == "hls" || _0x22397e == "m3u8" ? thetype = "m3u8" : thetype = _0x22397e;
       }
     }
     return thetype;
   },
   "nextcass": function () {
-    if (config.next) {
-      $(".art-control-playAndPause").after("<div class=\"art-control art-control-next\" data-index=\"10\"><i class=\"art-icon art-icon-next hint--rounded hint--top\" aria-label=\"下一集\" style=\"display: flex;\"><svg xmlns=\"http://www.w3.org/2000/svg\" height=\"22\" width=\"22\"><path d=\"M16 5a1 1 0 00-1 1v4.615a1.431 1.431 0 00-.615-.829L7.21 5.23A1.439 1.439 0 005 6.445v9.11a1.44 1.44 0 002.21 1.215l7.175-4.555a1.436 1.436 0 00.616-.828V16a1 1 0 002 0V6C17 5.448 16.552 5 16 5z\"></path></svg></i></div>");
-      $(".art-control-next").on("click", function () {
-        top.location.href = config.next;
-      });
-    }
+    config.next && ($(".art-control-playAndPause").after("<div class=\"art-control art-control-next\" data-index=\"10\"><i class=\"art-icon art-icon-next hint--rounded hint--top\" aria-label=\"下一集\" style=\"display: flex;\"><svg xmlns=\"http://www.w3.org/2000/svg\" height=\"22\" width=\"22\"><path d=\"M16 5a1 1 0 00-1 1v4.615a1.431 1.431 0 00-.615-.829L7.21 5.23A1.439 1.439 0 005 6.445v9.11a1.44 1.44 0 002.21 1.215l7.175-4.555a1.436 1.436 0 00.616-.828V16a1 1 0 002 0V6C17 5.448 16.552 5 16 5z\"></path></svg></i></div>"), $(".art-control-next").on("click", function () {
+      top.location.href = config.next;
+    }));
   }
 };
 function TheError() {
   $("body").append("<div id=\"error\"><h1>解析失败，请切换线路或刷新！</h1></div>");
   $("#loading").remove();
 }
-function getrgb(_0x2e8e10) {
-  var _0x2170f1 = new RegExp(/^#[0-9a-fA-F]{6}$/);
-  if (!_0x2170f1.test(_0x2e8e10)) {
-    {
-      console.log("invalid hex");
-      return;
-    }
+function getrgb(_0x285323) {
+  var _0x136ef3 = new RegExp(/^#[0-9a-fA-F]{6}$/);
+  if (!_0x136ef3.test(_0x285323)) {
+    console.log("invalid hex");
+    return;
   }
-  var _0x14a38d = parseInt(_0x2e8e10.slice(1), 16),
-    _0x163e01 = _0x14a38d % 256;
-  _0x14a38d = parseInt(_0x14a38d / 256);
-  var _0x14685e = _0x14a38d % 256;
-  _0x14a38d = parseInt(_0x14a38d / 256);
-  var _0x4a5273 = _0x14a38d % 256;
-  return "rgb(" + _0x4a5273 + "," + _0x14685e + "," + _0x163e01 + ")";
+  var _0x2cd064 = parseInt(_0x285323.slice(1), 16);
+  var _0xaee560 = _0x2cd064 % 256;
+  _0x2cd064 = parseInt(_0x2cd064 / 256);
+  var _0x6a0513 = _0x2cd064 % 256;
+  _0x2cd064 = parseInt(_0x2cd064 / 256);
+  var _0x1e67ad = _0x2cd064 % 256;
+  return "rgb(" + _0x1e67ad + "," + _0x6a0513 + "," + _0xaee560 + ")";
 }
 function getreferrer() {
-  var _0x711b94 = "";
-  if (document.referrer.length > 0) _0x711b94 = document.referrer;else {
-    _0x711b94 = window.location.href;
-  }
-  return _0x711b94;
+  var _0xddf992 = "";
+  document.referrer.length > 0 ? _0xddf992 = document.referrer : _0xddf992 = window.location.href;
+  return _0xddf992;
 }
-function playM3u8(_0x54b7ad, _0x163405, _0x36f7c6) {
-  const _0x5631dd = document.createElement("script");
-  _0x5631dd.src = "https://lcap-static-saas.nos-eastchina1.126.net/app/hls.min.js_20250102100359243.css";
-  document.head.appendChild(_0x5631dd);
-  _0x5631dd.onload = function () {
-    {
-      if (Hls.isSupported()) {
-        {
-          var _0x1022c2 = {
-            "maxBufferLength": 120
-          };
-          if (_0x36f7c6.hls) _0x36f7c6.hls.destroy();
-          const _0x2782da = new Hls();
-          _0x2782da.loadSource(_0x163405);
-          _0x2782da.attachMedia(_0x54b7ad);
-          _0x36f7c6.hls = _0x2782da;
-          _0x36f7c6.on("destroy", () => _0x2782da.destroy());
-        }
-      } else _0x54b7ad.canPlayType("application/vnd.apple.mpegurl") ? _0x54b7ad.src = _0x163405 : _0x36f7c6.notice.show = "Unsupported playback format: m3u8";
-    }
-  };
-}
-function playMpegts(_0x1012fa, _0x22e807, _0x3a615a) {
-  const _0x36b364 = document.createElement("script");
-  _0x36b364.src = "https://lcap-static-saas.nos-eastchina1.126.net/app/mpegts.js_20250102100509013.css";
-  document.head.appendChild(_0x36b364);
-  _0x36b364.onload = function () {
-    {
-      if (mpegts.isSupported()) {
-        if (_0x3a615a.mpegts) _0x3a615a.mpegts.destroy();
-        const _0x363e63 = mpegts.createPlayer({
-          "type": "mse",
-          "url": _0x22e807
-        });
-        _0x363e63.attachMediaElement(_0x1012fa);
-        _0x363e63.load();
-        _0x3a615a.stray = _0x363e63;
-        _0x3a615a.on("destroy", () => _0x363e63.destroy());
-      } else {
-        _0x3a615a.notice.show = "Unsupported playback format: flv or ts";
-      }
-    }
-  };
-}
-function playMpd(_0x1cea8a, _0x526502, _0x14de8c) {
-  const _0x234b23 = document.createElement("script");
-  _0x234b23.src = "https://lcap-static-saas.nos-eastchina1.126.net/app/dash.all.min.js_20250102100549442.css";
-  document.head.appendChild(_0x234b23);
-  _0x234b23.onload = function () {
-    if (dashjs.supportsMediaSource()) {
+function playM3u8(_0x72503d, _0x55f796, _0x4bf697) {
+  const _0x3c9cd9 = document.createElement("script");
+  _0x3c9cd9.src = "https://lcap-static-saas.nos-eastchina1.126.net/app/hls.min.js_20250102100359243.css";
+  document.head.appendChild(_0x3c9cd9);
+  _0x3c9cd9.onload = function () {
+    if (Hls.isSupported()) {
       {
-        if (_0x14de8c.dash) _0x14de8c.dash.destroy();
-        const _0x2a1c6f = dashjs.MediaPlayer().create();
-        _0x2a1c6f.initialize(_0x1cea8a, _0x526502, _0x14de8c.option.autoplay);
-        _0x14de8c.dash = _0x2a1c6f;
-        _0x14de8c.on("destroy", () => _0x2a1c6f.destroy());
+        var _0x1c22c4 = {
+          "maxBufferLength": 120
+        };
+        if (_0x4bf697.hls) _0x4bf697.hls.destroy();
+        const _0x17bfb4 = new Hls();
+        _0x17bfb4.loadSource(_0x55f796);
+        _0x17bfb4.attachMedia(_0x72503d);
+        _0x4bf697.hls = _0x17bfb4;
+        _0x4bf697.on("destroy", () => _0x17bfb4.destroy());
       }
     } else {
-      _0x14de8c.notice.show = "Unsupported playback format: mpd";
+      if (_0x72503d.canPlayType("application/vnd.apple.mpegurl")) {
+        _0x72503d.src = _0x55f796;
+      } else {
+        _0x4bf697.notice.show = "Unsupported playback format: m3u8";
+      }
     }
+  };
+}
+function playMpegts(_0x10a92a, _0x418b1e, _0x47a5f8) {
+  const _0x2aa8d9 = document.createElement("script");
+  _0x2aa8d9.src = "https://lcap-static-saas.nos-eastchina1.126.net/app/mpegts.js_20250102100509013.css";
+  document.head.appendChild(_0x2aa8d9);
+  _0x2aa8d9.onload = function () {
+    if (mpegts.isSupported()) {
+      {
+        if (_0x47a5f8.mpegts) _0x47a5f8.mpegts.destroy();
+        const _0x285aee = mpegts.createPlayer({
+          "type": "mse",
+          "url": _0x418b1e
+        });
+        _0x285aee.attachMediaElement(_0x10a92a);
+        _0x285aee.load();
+        _0x47a5f8.stray = _0x285aee;
+        _0x47a5f8.on("destroy", () => _0x285aee.destroy());
+      }
+    } else _0x47a5f8.notice.show = "Unsupported playback format: flv or ts";
+  };
+}
+function playMpd(_0x3749f4, _0x34fcba, _0x335fd9) {
+  const _0x14081e = document.createElement("script");
+  _0x14081e.src = "https://lcap-static-saas.nos-eastchina1.126.net/app/dash.all.min.js_20250102100549442.css";
+  document.head.appendChild(_0x14081e);
+  _0x14081e.onload = function () {
+    if (dashjs.supportsMediaSource()) {
+      {
+        if (_0x335fd9.dash) _0x335fd9.dash.destroy();
+        const _0x372a97 = dashjs.MediaPlayer().create();
+        _0x372a97.initialize(_0x3749f4, _0x34fcba, _0x335fd9.option.autoplay);
+        _0x335fd9.dash = _0x372a97;
+        _0x335fd9.on("destroy", () => _0x372a97.destroy());
+      }
+    } else _0x335fd9.notice.show = "Unsupported playback format: mpd";
   };
 }
 console.info("%c柯南影视，https://20s.top", "background: linear-gradient(to right, #ff8a00, #e52e71); color: white; padding: 8px; border-radius: 5px;");
